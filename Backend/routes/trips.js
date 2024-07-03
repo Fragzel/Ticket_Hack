@@ -19,8 +19,6 @@ router.post('/', async function (req, res, next) {
 
 });
 
-//let test = "2024-07-02T00:00:00.000Z".slice(0, 10) Expected => "2024-07-02"
-
 
 
 module.exports = router;

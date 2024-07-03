@@ -144,7 +144,7 @@ h2 {
     padding: 3%
 }
 
-#book {
+.book {
     background-color: #459E85;
     color: white;
     border: 0px;
@@ -154,4 +154,37 @@ h2 {
 
 .seeTrip {
     padding-top: 3%;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F5EEEE;
+    height: 7vh;
+}
+
+#purchase {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2vw;
+    font-size: small;
+}
+
+#title {
+    padding-left: 2vw;
+    font-size: large;
+    font-weight: 1000;
+    color: rgb(24, 126, 110);
+}
+
+#cart {
+    padding-right: 2vw
+}
+
+a:link {
+    color: black;
 }
